@@ -5,7 +5,7 @@ import Button from './components/Button';
 import './App.css';
 
 function App() {
-    const [pokemons, setPokemons] = useState([]);
+    const [pokemons, setPokemons] = useState();
     const [endpoint, setEndpoint] = useState('https://pokeapi.co/api/v2/pokemon/');
     const [loading, toggleLoading] = useState(false);
     const [error, setError] = useState(false);
